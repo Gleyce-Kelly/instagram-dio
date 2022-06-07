@@ -23,6 +23,7 @@ body {
     justify-content: start;
     width: 60%;
     height: 100vh;
+    flex-direction: row-reverse;
 }
 
 .instagram-phone {
@@ -61,14 +62,13 @@ body {
 }
 
 .instagram-logo {
-    height: 3rem;
+    height: 5rem;
 }
 
 .profile-photo {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
     overflow: hidden;
 }
 
